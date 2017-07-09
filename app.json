@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "种金豆",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "名师堂",
+        "iconPath": "images/icon/navigation.png",
+        "selectedIconPath": "images/icon/navigation.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "今日行动",
+        "iconPath": "images/icon/navigation.png",
+        "selectedIconPath": "images/icon/navigation.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "个人信息",
+        "iconPath": "images/icon/navigation.png",
+        "selectedIconPath": "images/icon/navigation.png"
+      }
+    ]
+  }
+}
