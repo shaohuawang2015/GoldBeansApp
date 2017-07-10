@@ -1,0 +1,9 @@
+<!--register.wxml 注册页面 -->
+<view class="container">
+  <view class="main">
+    <view class="head">
+      <image src="{{ headerDefaultImage }}" background-size="cover"></image>
+      <view>设置头像</view>
+    </view>
+  </view>
+</view>

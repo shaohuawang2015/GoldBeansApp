@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/user/register/register"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -24,7 +25,7 @@
         "selectedIconPath": "images/icon/navigation.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/user/register/register",
         "text": "个人信息",
         "iconPath": "images/icon/navigation.png",
         "selectedIconPath": "images/icon/navigation.png"

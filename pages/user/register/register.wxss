@@ -1,0 +1,25 @@
+/* register.wxss */
+
+.container {
+  background-color: #f0f0f0;
+}
+
+.main {
+  padding: 1rem;
+}
+
+.main .head {
+  text-align: center;
+}
+
+.main .head image {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.main .head view {
+  font-size: 40rpx;
+  margin-top: 0.5rem;
+}
