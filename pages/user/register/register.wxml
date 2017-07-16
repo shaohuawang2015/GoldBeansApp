@@ -6,4 +6,28 @@
       <view>设置头像</view>
     </view>
   </view>
+
+    <!-- 注册form -->
+    <view class="register-form">
+        <view class="list">
+            <image class="left" mode="aspectFit" src="../../../images/user/register_children_name_image.png" />
+            <view style="width:100%;">
+                <input id="NickName" bindchange="bindChildrenNameChange" placeholder="宝宝呢称" />
+            </view>
+        </view>
+        <picker id="BirthDay" mode="date" start="1980-09-01" end="2117-09-01" bindchange="bindBirthdayChange">
+            <view class="list">
+                <image class="left" mode="aspectFit" src="../../../images/user/register_children_birthday_image.png" />
+                <view>
+                    <view style="display:block;">
+                        {{ childrenInfo.birthday }}
+                    </view>
+                </view>
+            </view>
+        </picker>
+    </view>
+
+    <view class="register-submit">
+      <button bindtap="bindRegisterSubmit">完成</button>
+    </view>
 </view>
