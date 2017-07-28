@@ -1,2 +1,38 @@
 <!--userInfo.wxml-->
-<text>userInfo.wxml</text>
+<view>
+    <view class="userinfo">
+        <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+        <text class="userinfo-nickname">baby</text>
+        <view class="userinfo-dig">开通VIP</view>
+    </view>
+    
+    <view class="taskinfo-header">信息栏</view>
+    <view class="taskinfo-wrapper" catchtap="loadProfile">
+        <block wx:for="{{taskInfo}}" wx:key="item.id">
+            <view class="taskinfo" id="{{item.id}}">
+                <view class="taskinfo-item"> {{item.desc}} </view>
+                <image class="taskinfo-arrow" src="../../../images/icon/arrow.png"></image>
+            </view>
+        </block>
+    </view>
+
+    <view class="orderinfo-header">订单栏</view>
+    <view class="orderinfo-wrapper">
+        <view class="orderinfo" wx:for="{{orderInfo}}" wx:key="item.id">
+            <view class="orderinfo-item"> {{ item.desc }} </view>
+            <image class="orderinfo-arrow" src="../../../images/icon/arrow.png"></image>
+        </view>
+    </view>
+
+    <view class="otherinfo-header">其他</view>
+    <view class="otherinfo-wrapper">
+        <view class="otherinfo" wx:for="{{otherInfo}}" wx:key="item.id">
+            <view class="otherinfo-item"> {{ item.desc }} </view>
+            <image class="otherinfo-arrow" src="../../../images/icon/arrow.png"></image>
+        </view>
+    </view>
+
+     <view class="orderinfo-header"></view>
+
+    <button type="default" class="btn-quit"> 退出登录 </button>
+</view>

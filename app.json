@@ -1,9 +1,9 @@
 {
     "pages": [
-        "pages/index/index",
-        "pages/logs/logs",
+        "pages/action/action",
         "pages/user/register/register",
-        "pages/user/userInfo/userInfo"
+        "pages/user/userInfo/userInfo",
+        "pages/channel/channel"
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -14,20 +14,20 @@
     "tabBar": {
         "list": [
             {
-                "pagePath": "pages/index/index",
-                "text": "名师堂",
+                "pagePath": "pages/action/action",
+                "text": "金豆行动",
                 "iconPath": "images/icon/navigation.png",
                 "selectedIconPath": "images/icon/navigation.png"
             },
             {
-                "pagePath": "pages/logs/logs",
-                "text": "今日行动",
+                "pagePath": "pages/channel/channel",
+                "text": "育儿频道",
                 "iconPath": "images/icon/navigation.png",
                 "selectedIconPath": "images/icon/navigation.png"
             },
             {
                 "pagePath": "pages/user/userInfo/userInfo",
-                "text": "个人信息",
+                "text": "个人中心",
                 "iconPath": "images/icon/navigation.png",
                 "selectedIconPath": "images/icon/navigation.png"
             }

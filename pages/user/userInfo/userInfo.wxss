@@ -1,1 +1,74 @@
 /* userInfo.wxss */
+
+.userinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 20rpx;
+}
+
+.userinfo-avatar {
+    width: 128rpx;
+    height: 128rpx;
+    margin: 30rpx;
+    border-radius: 50%;
+}
+
+.userinfo-nickname {
+    margin: 20rpx;
+    color: #300e0e;
+}
+
+.userinfo-dig {
+    margin: 15rpx auto;
+    padding: 20rpx 25rpx;
+    border-radius: 10rpx;
+    background-color: #f85f48;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.userinfo-desc {
+    color: #bbb;
+    font-size: 14rpx;
+    margin-bottom: 20rpx;
+}
+
+.taskinfo-header, .orderinfo-header, .otherinfo-header{
+    background-color:#ddd;
+    font-size: 32rpx;
+    display: flex;
+    padding-left: 24rpx;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 1rpx solid #f0f0f0;
+    height: 80rpx;
+}
+
+.taskinfo-wrapper, .orderinfo-wrapper, .otherinfo-wrapper {
+    background-color: #fff;
+    margin-bottom: 0rpx;
+}
+
+.taskinfo, .orderinfo, .otherinfo {
+    display: flex;
+    padding: 30rpx;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 1rpx solid #f0f0f0;
+}
+
+.taskinfo-item, .orderinfo-item, .otherinfo-item {
+    flex: 1;
+    font-size: 24rpx;
+}
+
+.taskinfo-arrow, .orderinfo-arrow, .otherinfo-arrow {
+    width: 32rpx;
+    height: 32rpx;
+}
+
+.btn-quit {
+    margin: 15rpx;
+}
