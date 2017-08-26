@@ -1,0 +1,24 @@
+<!--actionList.wxml-->
+<view>
+    <scroll-view scroll-y="true" class="action-list-layout">
+
+        <!-- tab bar -->
+        <view class="action-list-navbar-box">
+            <scroll-view class="action-list-navbar" scroll-x="true" style="width:100%">
+                <text wx:for="{{ categories }}" wx:key="" data-index="{{ index }}" class="{{index == curTab?'action-list-navbar-current':''}}" bindtap="onCategoryChange">{{ item.name }}</text>
+            </scroll-view>
+        </view>
+
+        <!-- menu content list -->
+        <view class="action-content-list-box">
+            <navigator url="#" wx:for="{{ list }}" wx:key="" class="action-content-list-item" bindtap="onActionListChange">
+                <view class="action-content-list-item-img">
+                    <image src="{{item.image}}" mode="center" />
+                </view>
+                <text class="action-content-list-item-title">动作名称:{{ item.name }}</text>
+                <text class="action-content-list-item-content">动作时长:{{ item.days}}  <text>动作得分:{{ item.point }}</text></text>
+            </navigator>
+        </view>
+    </scroll-view>
+    <modal title="添加习惯动作" hidden="{{modalHidden}}" confirm-text="确定" cancel-text="取消" bindconfirm="onModalConfirm" bindcancel="onModalCancel">你确定将该动作加入自己的习惯培养计划吗?</modal>
+</view>

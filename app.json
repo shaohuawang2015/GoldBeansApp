@@ -1,6 +1,7 @@
 {
     "pages": [
         "pages/action/action",
+        "pages/action/actionList/actionList",
         "pages/user/register/register",
         "pages/user/userInfo/userInfo",
         "pages/channel/channel"
@@ -9,7 +10,8 @@
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#000",
         "navigationBarTitleText": "种金豆",
-        "navigationBarTextStyle": "white"
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#fb5d5d"
     },
     "tabBar": {
         "list": [

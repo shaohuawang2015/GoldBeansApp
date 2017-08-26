@@ -1,21 +1,89 @@
 /**index.wxss**/
-.userinfo {
-    display: flex;
+
+/** ------- children info ------- */
+
+.action-container {
     flex-direction: column;
-    align-items: center;
+    display: flex;
 }
 
-.userinfo-avatar {
-    width: 128rpx;
-    height: 128rpx;
-    margin: 20rpx;
+.children-info-block {
+    padding: 10rpx;
+    background: #fff;
+    float: left;
+    width: 100%;
+}
+
+.children-info-image {
+    width: 120rpx;
+    height: 120rpx;
+    vertical-align: middle;
+    margin: 10px;
     border-radius: 50%;
+    border: 1rpx solid #228b22;
+    float: left;
 }
 
-.userinfo-nickname {
-    color: #aaa;
+.children-info-user {
+    padding-top: 40rpx;
 }
 
-.usermotto {
-    margin-top: 200px;
+.children-info-line {
+    height: 1px;
+    width: 100%;
+    background: #000;
+}
+
+.children-info-image-calender {
+    padding-top: 25rpx;
+    width: 32rpx;
+    height: 32rpx;
+    padding-right: 5px;
+}
+
+.children-add-action-block {
+    display: flex;
+    padding: 10rpx;
+    align-items: center;
+    flex-basis: row;
+    width: 100%;
+    background-color: #fff;
+}
+
+.children-add-action-item {
+    flex: 1;
+    font-size: 32rpx;
+    padding: 10rpx;
+}
+
+.children-add-action-image {
+    width: 32rpx;
+    height: 32rpx;
+    padding: 32rpx;
+}
+
+.children-add-action-arrow {
+    width: 32rpx;
+    height: 32rpx;
+    padding-right: 32rpx;
+    color: #1296db;
+}
+
+.children-action-list-block {
+    height: 160rpx;
+    width: 100%;
+    display: flex;
+    display: -webkit-box;
+    flex-direction: column;
+}
+
+.children-action-list-item {
+    width: 160rpx;
+    height: 160rpx;
+    flex: 1;
+}
+
+.children-action-list-item-image {
+    width: 160rpx;
+    height: 160rpx;
 }
